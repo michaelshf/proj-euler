@@ -35,3 +35,11 @@
 
 (n-primes 10000)
 
+(reduce
+  (fn [primes number]
+    (if (some zero? (map (partial mod number) primes))
+      primes
+      (conj primes number)))
+  [2]
+  (take 100000 (iterate inc 3)))
+

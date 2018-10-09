@@ -41,5 +41,3 @@
 (println "michaels")
 (one-ten-list)
 (one-twenty-list)
-
-(take 2 (one-twenty-lister))
