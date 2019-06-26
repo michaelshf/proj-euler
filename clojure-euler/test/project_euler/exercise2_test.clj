@@ -5,4 +5,8 @@
 
 (deftest exercise2-test
   (testing "The example is solved"
-    (is (=  (e2/fibonacci-generator 90)))))
+    (is (= 44 (e2/fibonacci-generator 89)))))
+
+(deftest exercise2-solve
+  (testing "The problem is solved"
+    (println "Exercise2: " (e2/fibonacci-generator 4000000))))

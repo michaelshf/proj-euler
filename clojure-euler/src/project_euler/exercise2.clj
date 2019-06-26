@@ -20,4 +20,3 @@
      (recur (conj fiblist (+ num1 num2)) num2 (+ num1 num2))
      (reduce + (filter even? fiblist)))))
 
-
