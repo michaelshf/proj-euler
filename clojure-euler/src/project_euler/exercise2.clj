@@ -1,4 +1,4 @@
-(ns exercise2
+(ns project-euler.exercise2
   (:require [clojure.string :as string]))
 
 
@@ -21,4 +21,3 @@
      (reduce + (filter even? fiblist)))))
 
 
-(println "Exercise 2:" (fibonacci-generator 4000000))

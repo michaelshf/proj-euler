@@ -2,3 +2,4 @@
   (:require [clojure.test :refer :all]
             [project-euler.core :refer :all]))
 
+(println "Running tests...")

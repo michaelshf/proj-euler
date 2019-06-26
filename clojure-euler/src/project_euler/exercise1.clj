@@ -1,4 +1,4 @@
-(ns exercise1
+(ns project-euler.exercise1
   "A place to solve the first problem"
   (:require [clojure.string :as string]))
 
@@ -18,5 +18,6 @@
      possibles)))
 
 
-(println "Exercise 1:" (reduce + (threes-or-fives 1000)))
-
+(defn sum-3s-5s
+  [input]
+  (reduce + (threes-or-fives input)))
