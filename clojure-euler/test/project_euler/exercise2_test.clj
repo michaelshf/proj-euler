@@ -8,3 +8,4 @@
     (is (=  (e2/fibonacci-generator 90))))
   (testing "exercise"
     (println "Exercise 2: " (e2/fibonacci-generator 4000000))))
+

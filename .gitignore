@@ -1,4 +1,4 @@
-/target
+/target*
 /clojure-euler/target
 /classes
 /checkouts
