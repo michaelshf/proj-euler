@@ -1,6 +1,7 @@
 # project-euler
 
-FIXME: description
+usage: run lein test
+- - each test completes the example provided as an assertion and the problem answer printed to the console
 
 ## Installation
 

@@ -1,4 +1,5 @@
 /target
+/clojure-euler/target
 /classes
 /checkouts
 pom.xml
